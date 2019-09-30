@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view>大型抽奖平台</view>
+  <view class="award">
+    <view wx:for='{{awards}}' wx:key='{{index}}' class="{{index==checkedIndex?'checked':''}}">{{item}}</view>
+  </view>
+  <view wx:if='{{showInfo}}'>{{awardShow}}</view>
+  <button bindtap="check" class="btn" wx:if="{{btnShow}}">{{btnName}}</button>
+</view>

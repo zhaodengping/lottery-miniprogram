@@ -1,0 +1,29 @@
+.container{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.award{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 200rpx auto;
+  width: 600rpx;
+}
+
+.award view{
+  margin: 10px 0;
+  padding: 10rpx 0;
+  width: 30%;
+  border:1rpx solid #f2f2f2;
+}
+
+.checked{
+  background-color: #f00;
+  color: #fff;
+}
+
+.btn{
+  margin-top: 50rpx;
+}
